@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondWinApp", "SecondWinAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdWinApp", "ThirdWinApp\ThirdWinApp.csproj", "{B89643D6-FF87-45D9-ACFD-7B6B796B0883}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourthFormApp", "FourthFormApp\FourthFormApp.csproj", "{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B89643D6-FF87-45D9-ACFD-7B6B796B0883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89643D6-FF87-45D9-ACFD-7B6B796B0883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89643D6-FF87-45D9-ACFD-7B6B796B0883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

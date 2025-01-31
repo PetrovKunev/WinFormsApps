@@ -29,28 +29,21 @@ namespace FirstWinApp
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             txtBox = new TextBox();
             btnShowWords = new Button();
             btnClear = new Button();
+            label1 = new Label();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 51);
-            label1.Name = "label1";
-            label1.Size = new Size(193, 32);
-            label1.TabIndex = 0;
-            label1.Text = "Enter some text: ";
             // 
             // txtBox
             // 
             txtBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtBox.BackColor = SystemColors.Info;
-            txtBox.Location = new Point(12, 103);
+            txtBox.Font = new Font("Segoe UI", 19.875F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            txtBox.Location = new Point(12, 81);
+            txtBox.Multiline = true;
             txtBox.Name = "txtBox";
-            txtBox.Size = new Size(1351, 39);
+            txtBox.Size = new Size(1351, 68);
             txtBox.TabIndex = 1;
             // 
             // btnShowWords
@@ -79,16 +72,26 @@ namespace FirstWinApp
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 13.875F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label1.Location = new Point(12, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(286, 50);
+            label1.TabIndex = 4;
+            label1.Text = "Enter some text:";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1374, 513);
+            Controls.Add(label1);
             Controls.Add(btnClear);
             Controls.Add(btnShowWords);
             Controls.Add(txtBox);
-            Controls.Add(label1);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MyFirstApp";
@@ -101,11 +104,10 @@ namespace FirstWinApp
             throw new NotImplementedException();
         }
 
-        #endregion
-
-        private Label label1;
+#endregion
         private TextBox txtBox;
         private Button btnShowWords;
         private Button btnClear;
+        private Label label1;
     }
 }
