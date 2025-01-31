@@ -16,6 +16,10 @@ namespace FourthFormApp
             lblResult.Text = $"{area}";
         }
 
-
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            lblResult.Text = "---";
+            txtInputBox.Clear();
+        }
     }
 }

@@ -33,6 +33,7 @@
             label1 = new Label();
             lblResult = new Label();
             label2 = new Label();
+            btnClear = new Button();
             SuspendLayout();
             // 
             // btnCalculateArea
@@ -83,13 +84,24 @@
             label2.Size = new Size(258, 32);
             label2.TabIndex = 5;
             label2.Text = "Лицето на квадрата е:";
-
+            // 
+            // btnClear
+            // 
+            btnClear.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            btnClear.Location = new Point(49, 380);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(626, 88);
+            btnClear.TabIndex = 6;
+            btnClear.Text = "Изчисти";
+            btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(703, 450);
+            ClientSize = new Size(703, 542);
+            Controls.Add(btnClear);
             Controls.Add(label2);
             Controls.Add(lblResult);
             Controls.Add(label1);
@@ -109,5 +121,6 @@
         private Label label1;
         private Label lblResult;
         private Label label2;
+        private Button btnClear;
     }
 }
