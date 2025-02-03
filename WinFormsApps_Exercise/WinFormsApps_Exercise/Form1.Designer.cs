@@ -38,10 +38,11 @@
             // txtInput
             // 
             txtInput.Font = new Font("Segoe UI", 19.875F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            txtInput.Location = new Point(54, 106);
+            txtInput.Location = new Point(29, 50);
+            txtInput.Margin = new Padding(2, 1, 2, 1);
             txtInput.Multiline = true;
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(914, 110);
+            txtInput.Size = new Size(494, 54);
             txtInput.TabIndex = 1;
             // 
             // btnCalculate
@@ -49,9 +50,10 @@
             btnCalculate.BackColor = Color.FromArgb(192, 255, 192);
             btnCalculate.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 204);
             btnCalculate.ForeColor = SystemColors.ActiveCaptionText;
-            btnCalculate.Location = new Point(54, 314);
+            btnCalculate.Location = new Point(29, 147);
+            btnCalculate.Margin = new Padding(2, 1, 2, 1);
             btnCalculate.Name = "btnCalculate";
-            btnCalculate.Size = new Size(475, 91);
+            btnCalculate.Size = new Size(256, 59);
             btnCalculate.TabIndex = 2;
             btnCalculate.Text = "Calculate area";
             btnCalculate.UseVisualStyleBackColor = false;
@@ -61,9 +63,10 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(308, 502);
+            label2.Location = new Point(166, 235);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(193, 65);
+            label2.Size = new Size(97, 32);
             label2.TabIndex = 3;
             label2.Text = "Area is: ";
             // 
@@ -71,9 +74,10 @@
             // 
             lblResult.AutoSize = true;
             lblResult.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            lblResult.Location = new Point(619, 502);
+            lblResult.Location = new Point(333, 235);
+            lblResult.Margin = new Padding(2, 0, 2, 0);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(168, 65);
+            lblResult.Size = new Size(84, 32);
             lblResult.TabIndex = 4;
             lblResult.Text = "_______";
             // 
@@ -82,9 +86,10 @@
             btnClear.BackColor = Color.Turquoise;
             btnClear.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 204);
             btnClear.ForeColor = SystemColors.ButtonHighlight;
-            btnClear.Location = new Point(544, 314);
+            btnClear.Location = new Point(293, 147);
+            btnClear.Margin = new Padding(2, 1, 2, 1);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(424, 91);
+            btnClear.Size = new Size(228, 59);
             btnClear.TabIndex = 5;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = false;
@@ -92,14 +97,15 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1020, 634);
+            ClientSize = new Size(549, 297);
             Controls.Add(btnClear);
             Controls.Add(lblResult);
             Controls.Add(label2);
             Controls.Add(btnCalculate);
             Controls.Add(txtInput);
+            Margin = new Padding(2, 1, 2, 1);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Square";
