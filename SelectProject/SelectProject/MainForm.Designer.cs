@@ -32,6 +32,8 @@
             lblSelectedProject = new Label();
             lstAvailableProjects = new ListBox();
             lstSelectedProjects = new ListBox();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // btnSelect
@@ -45,36 +47,60 @@
             btnSelect.TabIndex = 0;
             btnSelect.Text = "Избери проект";
             btnSelect.UseVisualStyleBackColor = false;
-            btnSelect.Click += this.btnSelectProject_Click;
+            btnSelect.Click += btnSelectProject_Click;
             // 
             // lblSelectedProject
             // 
             lblSelectedProject.AutoSize = true;
             lblSelectedProject.Font = new Font("Calibri", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblSelectedProject.ForeColor = SystemColors.ButtonHighlight;
-            lblSelectedProject.Location = new Point(471, 261);
+            lblSelectedProject.ForeColor = Color.GhostWhite;
+            lblSelectedProject.Location = new Point(435, 257);
             lblSelectedProject.Name = "lblSelectedProject";
-            lblSelectedProject.Size = new Size(104, 42);
+            lblSelectedProject.Size = new Size(392, 42);
             lblSelectedProject.TabIndex = 1;
-            lblSelectedProject.Text = "label1";
+            lblSelectedProject.Text = "______________________";
             // 
             // lstAvailableProjects
             // 
+            lstAvailableProjects.Font = new Font("Calibri", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lstAvailableProjects.FormattingEnabled = true;
-            lstAvailableProjects.ItemHeight = 15;
+            lstAvailableProjects.ItemHeight = 33;
             lstAvailableProjects.Location = new Point(40, 46);
             lstAvailableProjects.Name = "lstAvailableProjects";
-            lstAvailableProjects.Size = new Size(325, 454);
+            lstAvailableProjects.Size = new Size(325, 433);
             lstAvailableProjects.TabIndex = 2;
             // 
             // lstSelectedProjects
             // 
+            lstSelectedProjects.Font = new Font("Calibri", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lstSelectedProjects.FormattingEnabled = true;
-            lstSelectedProjects.ItemHeight = 15;
+            lstSelectedProjects.ItemHeight = 33;
             lstSelectedProjects.Location = new Point(883, 46);
             lstSelectedProjects.Name = "lstSelectedProjects";
-            lstSelectedProjects.Size = new Size(325, 454);
+            lstSelectedProjects.Size = new Size(325, 433);
             lstSelectedProjects.TabIndex = 3;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.WhiteSmoke;
+            label1.Location = new Point(40, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(149, 23);
+            label1.TabIndex = 4;
+            label1.Text = "Налични проекти";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.WhiteSmoke;
+            label2.Location = new Point(883, 20);
+            label2.Name = "label2";
+            label2.Size = new Size(148, 23);
+            label2.TabIndex = 5;
+            label2.Text = "Избрани проекти";
             // 
             // MainForm
             // 
@@ -82,6 +108,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1243, 599);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(lstSelectedProjects);
             Controls.Add(lstAvailableProjects);
             Controls.Add(lblSelectedProject);
@@ -98,5 +126,7 @@
         private Label lblSelectedProject;
         private ListBox lstAvailableProjects;
         private ListBox lstSelectedProjects;
+        private Label label1;
+        private Label label2;
     }
 }
