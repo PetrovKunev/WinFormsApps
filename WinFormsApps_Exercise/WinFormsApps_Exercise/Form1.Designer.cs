@@ -33,6 +33,7 @@
             label2 = new Label();
             lblResult = new Label();
             btnClear = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // txtInput
@@ -61,11 +62,11 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(308, 502);
+            label2.Location = new Point(220, 502);
             label2.Name = "label2";
-            label2.Size = new Size(193, 65);
+            label2.Size = new Size(346, 65);
             label2.TabIndex = 3;
-            label2.Text = "Area is: ";
+            label2.Text = "Square area is: ";
             // 
             // lblResult
             // 
@@ -90,11 +91,22 @@
             btnClear.UseVisualStyleBackColor = false;
             btnClear.Click += btnClear_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 16.125F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label1.Location = new Point(62, 36);
+            label1.Name = "label1";
+            label1.Size = new Size(339, 59);
+            label1.TabIndex = 6;
+            label1.Text = "Enter perimeter: ";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1020, 634);
+            Controls.Add(label1);
             Controls.Add(btnClear);
             Controls.Add(lblResult);
             Controls.Add(label2);
@@ -113,5 +125,6 @@
         private Label label2;
         private Label lblResult;
         private Button btnClear;
+        private Label label1;
     }
 }

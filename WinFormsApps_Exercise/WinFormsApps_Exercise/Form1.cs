@@ -12,7 +12,7 @@ namespace WinFormsApps_Exercise
             if (double.TryParse(txtInput.Text, out double input))
             {
                 double squareSide = input / 4;
-                double squareArea = Math.Pow(squareSide, 2);
+                double squareArea = Math.Pow(squareSide, 2); // squareArea = squareSide * squareSide
                 lblResult.Text = squareArea.ToString();
             }
             else
