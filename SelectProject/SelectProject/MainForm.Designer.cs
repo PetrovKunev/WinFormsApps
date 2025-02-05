@@ -39,10 +39,9 @@
             // 
             // btnSelect
             // 
-            btnSelect.BackColor = Color.FromArgb(255, 128, 128);
-            btnSelect.FlatStyle = FlatStyle.Popup;
+            btnSelect.BackColor = Color.Salmon;
             btnSelect.Font = new Font("Calibri", 28F);
-            btnSelect.ForeColor = Color.LawnGreen;
+            btnSelect.ForeColor = Color.Ivory;
             btnSelect.Location = new Point(895, 98);
             btnSelect.Margin = new Padding(6);
             btnSelect.Name = "btnSelect";
