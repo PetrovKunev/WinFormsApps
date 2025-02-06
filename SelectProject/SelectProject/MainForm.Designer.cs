@@ -30,11 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             btnSelect = new Button();
-            lblSelectedProject = new Label();
             lstAvailableProjects = new ListBox();
             lstSelectedProjects = new ListBox();
             label1 = new Label();
             label2 = new Label();
+            cmbTeams = new ComboBox();
+            lblSelectedProject = new Label();
+            btnRemoveProject = new Button();
+            btnEditAvailableProject = new Button();
+            btnDeleteAvailableProject = new Button();
             SuspendLayout();
             // 
             // btnSelect
@@ -42,7 +46,7 @@
             btnSelect.BackColor = Color.Salmon;
             btnSelect.Font = new Font("Calibri", 28F);
             btnSelect.ForeColor = Color.Ivory;
-            btnSelect.Location = new Point(895, 98);
+            btnSelect.Location = new Point(891, 373);
             btnSelect.Margin = new Padding(6);
             btnSelect.Name = "btnSelect";
             btnSelect.Size = new Size(539, 233);
@@ -50,18 +54,6 @@
             btnSelect.Text = "Избери проект";
             btnSelect.UseVisualStyleBackColor = false;
             btnSelect.Click += btnSelectProject_Click;
-            // 
-            // lblSelectedProject
-            // 
-            lblSelectedProject.AutoSize = true;
-            lblSelectedProject.Font = new Font("Calibri", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblSelectedProject.ForeColor = Color.GhostWhite;
-            lblSelectedProject.Location = new Point(808, 548);
-            lblSelectedProject.Margin = new Padding(6, 0, 6, 0);
-            lblSelectedProject.Name = "lblSelectedProject";
-            lblSelectedProject.Size = new Size(807, 86);
-            lblSelectedProject.TabIndex = 1;
-            lblSelectedProject.Text = "______________________";
             // 
             // lstAvailableProjects
             // 
@@ -111,20 +103,86 @@
             label2.TabIndex = 5;
             label2.Text = "Избрани проекти";
             // 
+            // cmbTeams
+            // 
+            cmbTeams.Font = new Font("Calibri", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            cmbTeams.FormattingEnabled = true;
+            cmbTeams.Location = new Point(853, 98);
+            cmbTeams.Name = "cmbTeams";
+            cmbTeams.Size = new Size(603, 67);
+            cmbTeams.TabIndex = 6;
+            // 
+            // lblSelectedProject
+            // 
+            lblSelectedProject.AutoSize = true;
+            lblSelectedProject.Font = new Font("Calibri", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblSelectedProject.ForeColor = Color.GhostWhite;
+            lblSelectedProject.Location = new Point(599, 1151);
+            lblSelectedProject.Margin = new Padding(6, 0, 6, 0);
+            lblSelectedProject.Name = "lblSelectedProject";
+            lblSelectedProject.Size = new Size(1052, 86);
+            lblSelectedProject.TabIndex = 1;
+            lblSelectedProject.Text = "_____________________________";
+            // 
+            // btnRemoveProject
+            // 
+            btnRemoveProject.BackColor = Color.Khaki;
+            btnRemoveProject.Font = new Font("Calibri", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            btnRemoveProject.ForeColor = SystemColors.InfoText;
+            btnRemoveProject.Location = new Point(1640, 1019);
+            btnRemoveProject.Name = "btnRemoveProject";
+            btnRemoveProject.Size = new Size(600, 102);
+            btnRemoveProject.TabIndex = 7;
+            btnRemoveProject.Text = "Премахване на проект";
+            btnRemoveProject.UseVisualStyleBackColor = false;
+            btnRemoveProject.Click += btnRemoveProject_Click;
+            // 
+            // btnEditAvailableProject
+            // 
+            btnEditAvailableProject.BackColor = Color.YellowGreen;
+            btnEditAvailableProject.Font = new Font("Calibri", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            btnEditAvailableProject.ForeColor = SystemColors.ControlLightLight;
+            btnEditAvailableProject.Location = new Point(74, 1019);
+            btnEditAvailableProject.Name = "btnEditAvailableProject";
+            btnEditAvailableProject.Size = new Size(289, 102);
+            btnEditAvailableProject.TabIndex = 8;
+            btnEditAvailableProject.Text = "Редактирай";
+            btnEditAvailableProject.UseVisualStyleBackColor = false;
+            btnEditAvailableProject.Click += btnEditAvailableProject_Click;
+            // 
+            // btnDeleteAvailableProject
+            // 
+            btnDeleteAvailableProject.BackColor = Color.Firebrick;
+            btnDeleteAvailableProject.Font = new Font("Calibri", 18F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            btnDeleteAvailableProject.ForeColor = SystemColors.ControlLightLight;
+            btnDeleteAvailableProject.Location = new Point(385, 1019);
+            btnDeleteAvailableProject.Name = "btnDeleteAvailableProject";
+            btnDeleteAvailableProject.Size = new Size(289, 102);
+            btnDeleteAvailableProject.TabIndex = 9;
+            btnDeleteAvailableProject.Text = "Изтрий";
+            btnDeleteAvailableProject.UseVisualStyleBackColor = false;
+            btnDeleteAvailableProject.Click += btnDeleteAvailableProject_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(2308, 1278);
+            Controls.Add(btnDeleteAvailableProject);
+            Controls.Add(btnEditAvailableProject);
+            Controls.Add(btnRemoveProject);
+            Controls.Add(cmbTeams);
+            Controls.Add(btnSelect);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(lstSelectedProjects);
             Controls.Add(lstAvailableProjects);
             Controls.Add(lblSelectedProject);
-            Controls.Add(btnSelect);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(6);
+            MaximizeBox = false;
             Name = "MainForm";
             Text = "Select Projects";
             ResumeLayout(false);
@@ -134,10 +192,14 @@
         #endregion
 
         private Button btnSelect;
-        private Label lblSelectedProject;
         private ListBox lstAvailableProjects;
         private ListBox lstSelectedProjects;
         private Label label1;
         private Label label2;
+        private ComboBox cmbTeams;
+        private Label lblSelectedProject;
+        private Button btnRemoveProject;
+        private Button btnEditAvailableProject;
+        private Button btnDeleteAvailableProject;
     }
 }
