@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareArea", "WinFormsApps_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{6CBA2388-4EA2-476B-A4EF-14B8C2E413FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessCheckerApp", "AccessCheckerApp\AccessCheckerApp.csproj", "{16F9E9BA-D6F4-41E4-B925-ACAB1B58DB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightToggleApp", "LightToggleApp\LightToggleApp.csproj", "{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6CBA2388-4EA2-476B-A4EF-14B8C2E413FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CBA2388-4EA2-476B-A4EF-14B8C2E413FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CBA2388-4EA2-476B-A4EF-14B8C2E413FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F9E9BA-D6F4-41E4-B925-ACAB1B58DB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F9E9BA-D6F4-41E4-B925-ACAB1B58DB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F9E9BA-D6F4-41E4-B925-ACAB1B58DB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F9E9BA-D6F4-41E4-B925-ACAB1B58DB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
