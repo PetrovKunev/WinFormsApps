@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightToggleApp", "LightTogg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightToggleBulb", "LightToggleBulb\LightToggleBulb.csproj", "{26F7663A-6A79-4EE9-AA51-53C7231DB842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightToggleText", "LightToggleText\LightToggleText.csproj", "{F612FC68-24D8-4B96-89B9-86744CEA87FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistrationApp", "UserRegistrationApp\UserRegistrationApp.csproj", "{6277E5D6-D778-43C0-9B29-BD1D76EF2257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{26F7663A-6A79-4EE9-AA51-53C7231DB842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F7663A-6A79-4EE9-AA51-53C7231DB842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26F7663A-6A79-4EE9-AA51-53C7231DB842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F612FC68-24D8-4B96-89B9-86744CEA87FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F612FC68-24D8-4B96-89B9-86744CEA87FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F612FC68-24D8-4B96-89B9-86744CEA87FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F612FC68-24D8-4B96-89B9-86744CEA87FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6277E5D6-D778-43C0-9B29-BD1D76EF2257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6277E5D6-D778-43C0-9B29-BD1D76EF2257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6277E5D6-D778-43C0-9B29-BD1D76EF2257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6277E5D6-D778-43C0-9B29-BD1D76EF2257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
