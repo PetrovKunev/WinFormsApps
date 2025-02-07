@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessCheckerApp", "AccessC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightToggleApp", "LightToggleApp\LightToggleApp.csproj", "{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightToggleBulb", "LightToggleBulb\LightToggleBulb.csproj", "{26F7663A-6A79-4EE9-AA51-53C7231DB842}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE9F3FD-5C00-4FFC-83E2-E408CA0DFA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F7663A-6A79-4EE9-AA51-53C7231DB842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F7663A-6A79-4EE9-AA51-53C7231DB842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F7663A-6A79-4EE9-AA51-53C7231DB842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F7663A-6A79-4EE9-AA51-53C7231DB842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
