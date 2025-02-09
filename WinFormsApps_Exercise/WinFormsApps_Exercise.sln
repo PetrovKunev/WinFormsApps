@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightToggleText", "LightTog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistrationApp", "UserRegistrationApp\UserRegistrationApp.csproj", "{6277E5D6-D778-43C0-9B29-BD1D76EF2257}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayNight", "DayNight\DayNight.csproj", "{D93314E5-2402-45C8-B0E7-E94BE171377C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6277E5D6-D778-43C0-9B29-BD1D76EF2257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6277E5D6-D778-43C0-9B29-BD1D76EF2257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6277E5D6-D778-43C0-9B29-BD1D76EF2257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93314E5-2402-45C8-B0E7-E94BE171377C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93314E5-2402-45C8-B0E7-E94BE171377C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93314E5-2402-45C8-B0E7-E94BE171377C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93314E5-2402-45C8-B0E7-E94BE171377C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
