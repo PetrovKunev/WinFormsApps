@@ -36,18 +36,20 @@
             // checkBoxAccess
             // 
             checkBoxAccess.AutoSize = true;
-            checkBoxAccess.Location = new Point(68, 50);
+            checkBoxAccess.Location = new Point(126, 107);
+            checkBoxAccess.Margin = new Padding(6);
             checkBoxAccess.Name = "checkBoxAccess";
-            checkBoxAccess.Size = new Size(66, 19);
+            checkBoxAccess.Size = new Size(126, 36);
             checkBoxAccess.TabIndex = 0;
             checkBoxAccess.Text = "Достъп";
             checkBoxAccess.UseVisualStyleBackColor = true;
             // 
             // btnCheck
             // 
-            btnCheck.Location = new Point(68, 157);
+            btnCheck.Location = new Point(126, 335);
+            btnCheck.Margin = new Padding(6);
             btnCheck.Name = "btnCheck";
-            btnCheck.Size = new Size(171, 50);
+            btnCheck.Size = new Size(318, 107);
             btnCheck.TabIndex = 1;
             btnCheck.Text = "Проверка";
             btnCheck.UseVisualStyleBackColor = true;
@@ -56,19 +58,21 @@
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(127, 260);
+            lblResult.Location = new Point(236, 555);
+            lblResult.Margin = new Padding(6, 0, 6, 0);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(0, 15);
+            lblResult.Size = new Size(0, 32);
             lblResult.TabIndex = 2;
             // 
             // AccessCheckerApp
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(398, 374);
+            ClientSize = new Size(601, 658);
             Controls.Add(lblResult);
             Controls.Add(btnCheck);
             Controls.Add(checkBoxAccess);
+            Margin = new Padding(6);
             Name = "AccessCheckerApp";
             Text = "AccessCheckerApp";
             ResumeLayout(false);
