@@ -21,20 +21,16 @@
         {
             availableProjects = new List<string>
                 {
-                    "Проект 1",
-                    "Проект 2",
-                    "Проект 3",
-                    "Проект 4",
-                    "Проект 5",
-                    "Проект 6",
-                    "Проект 7",
-                    "Проект 8",
-                    "Проект 9",
-                    "Проект 10",
-                    "Проект 11"
-
-                        
-                    // Добави още проекти по желание
+                    "Calculator",
+                    "Unit Converter",
+                    "Quiz Game",
+                    "To-Do List",
+                    "Timer",
+                    "Traffic light",
+                    "GPA calculator",
+                    "Rock-Paper-Scissors",
+                    "Picture Viewer",
+                    "Math Practice"
                 };
 
             selectedProjects = new List<AssociatedProject>();
@@ -52,7 +48,6 @@
             cmbTeams.Items.Add("Екип 3");
             cmbTeams.Items.Add("Екип 4");
             cmbTeams.Items.Add("Екип 5");
-            // Можеш да добавиш още екипи, ако има нужда
         }
 
         // Обновява ListBox-а с налични проекти

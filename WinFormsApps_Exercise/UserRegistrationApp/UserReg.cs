@@ -2,12 +2,12 @@
 {
     public partial class UserReg : Form
     {
-        
+
         public UserReg()
         {
             InitializeComponent();
             btnRegistration.Enabled = false;
-            
+
         }
 
         // Обработчик за събитие, когато състоянието на CheckBox "Приемам условията" се променя
@@ -34,6 +34,11 @@
 
             // Активиране или деактивиране на бутона за регистрация според условието
             btnRegistration.Enabled = registrationAllowed;
+        }
+
+        private void btnRegistration_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

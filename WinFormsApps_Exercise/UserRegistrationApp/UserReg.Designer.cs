@@ -36,20 +36,23 @@
             // btnRegistration
             // 
             btnRegistration.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnRegistration.Location = new Point(281, 229);
+            btnRegistration.Location = new Point(522, 489);
+            btnRegistration.Margin = new Padding(6, 6, 6, 6);
             btnRegistration.Name = "btnRegistration";
-            btnRegistration.Size = new Size(211, 58);
+            btnRegistration.Size = new Size(392, 124);
             btnRegistration.TabIndex = 0;
             btnRegistration.Text = "Регистрация";
             btnRegistration.UseVisualStyleBackColor = true;
+            btnRegistration.Click += btnRegistration_Click;
             // 
             // checkBoxConditions
             // 
             checkBoxConditions.AutoSize = true;
             checkBoxConditions.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBoxConditions.Location = new Point(83, 62);
+            checkBoxConditions.Location = new Point(154, 132);
+            checkBoxConditions.Margin = new Padding(6, 6, 6, 6);
             checkBoxConditions.Name = "checkBoxConditions";
-            checkBoxConditions.Size = new Size(255, 36);
+            checkBoxConditions.Size = new Size(499, 69);
             checkBoxConditions.TabIndex = 1;
             checkBoxConditions.Text = "Приемам условията";
             checkBoxConditions.UseVisualStyleBackColor = true;
@@ -59,9 +62,10 @@
             // 
             checkBoxAge.AutoSize = true;
             checkBoxAge.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBoxAge.Location = new Point(83, 104);
+            checkBoxAge.Location = new Point(154, 222);
+            checkBoxAge.Margin = new Padding(6, 6, 6, 6);
             checkBoxAge.Name = "checkBoxAge";
-            checkBoxAge.Size = new Size(686, 36);
+            checkBoxAge.Size = new Size(1353, 69);
             checkBoxAge.TabIndex = 2;
             checkBoxAge.Text = "Потвърждавам, че съм навършил/а необходимата възраст";
             checkBoxAge.UseVisualStyleBackColor = true;
@@ -69,12 +73,13 @@
             // 
             // UserReg
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(802, 387);
+            ClientSize = new Size(1749, 826);
             Controls.Add(checkBoxAge);
             Controls.Add(checkBoxConditions);
             Controls.Add(btnRegistration);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "UserReg";
             Text = "User Registration";
             ResumeLayout(false);
