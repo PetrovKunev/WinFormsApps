@@ -30,7 +30,8 @@
                     "GPA calculator",
                     "Rock-Paper-Scissors",
                     "Picture Viewer",
-                    "Math Practice"
+                    "Math Practice",
+                    "Palindrome Checker"
                 };
 
             selectedProjects = new List<AssociatedProject>();
