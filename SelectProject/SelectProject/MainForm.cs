@@ -21,7 +21,7 @@
         {
             availableProjects = new List<string>
                 {
-                    "Calculator",
+                    //"Calculator",
                     "Unit Converter",
                     "Quiz Game",
                     "To-Do List",
