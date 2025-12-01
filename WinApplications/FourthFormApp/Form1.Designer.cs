@@ -39,30 +39,33 @@
             // btnCalculateArea
             // 
             btnCalculateArea.Font = new Font("Segoe UI", 22.125F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            btnCalculateArea.Location = new Point(44, 258);
+            btnCalculateArea.Location = new Point(34, 202);
+            btnCalculateArea.Margin = new Padding(2, 2, 2, 2);
             btnCalculateArea.Name = "btnCalculateArea";
-            btnCalculateArea.Size = new Size(629, 87);
+            btnCalculateArea.Size = new Size(484, 68);
             btnCalculateArea.TabIndex = 0;
-            btnCalculateArea.Text = "Изчисли лицето";
+            btnCalculateArea.Text = "Изчисли";
             btnCalculateArea.UseVisualStyleBackColor = true;
             btnCalculateArea.Click += btnCalculateArea_Click;
             // 
             // txtInputBox
             // 
             txtInputBox.Font = new Font("Segoe UI", 16.125F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            txtInputBox.Location = new Point(44, 114);
+            txtInputBox.Location = new Point(34, 89);
+            txtInputBox.Margin = new Padding(2, 2, 2, 2);
             txtInputBox.Multiline = true;
             txtInputBox.Name = "txtInputBox";
-            txtInputBox.Size = new Size(314, 75);
+            txtInputBox.Size = new Size(242, 59);
             txtInputBox.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label1.Location = new Point(44, 44);
+            label1.Location = new Point(34, 34);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(306, 32);
+            label1.Size = new Size(229, 25);
             label1.TabIndex = 3;
             label1.Text = "Въведи страна на квадрат:";
             // 
@@ -70,27 +73,30 @@
             // 
             lblResult.AutoSize = true;
             lblResult.Font = new Font("Segoe UI", 16.125F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            lblResult.Location = new Point(499, 130);
+            lblResult.Location = new Point(384, 102);
+            lblResult.Margin = new Padding(2, 0, 2, 0);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(97, 59);
+            lblResult.Size = new Size(76, 45);
             lblResult.TabIndex = 4;
             lblResult.Text = "____";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(415, 44);
+            label2.Location = new Point(319, 34);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(258, 32);
+            label2.Size = new Size(193, 25);
             label2.TabIndex = 5;
             label2.Text = "Лицето на квадрата е:";
             // 
             // btnClear
             // 
             btnClear.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            btnClear.Location = new Point(49, 380);
+            btnClear.Location = new Point(38, 297);
+            btnClear.Margin = new Padding(2, 2, 2, 2);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(626, 88);
+            btnClear.Size = new Size(482, 69);
             btnClear.TabIndex = 6;
             btnClear.Text = "Изчисти";
             btnClear.UseVisualStyleBackColor = true;
@@ -98,15 +104,16 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(701, 542);
+            ClientSize = new Size(539, 423);
             Controls.Add(btnClear);
             Controls.Add(label2);
             Controls.Add(lblResult);
             Controls.Add(label1);
             Controls.Add(txtInputBox);
             Controls.Add(btnCalculateArea);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Изчисляване на лице на квадрат";
