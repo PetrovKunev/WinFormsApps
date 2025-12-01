@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11217.181 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWinApp", "FirstWinApp\FirstWinApp.csproj", "{178BBCA0-BFFB-4FCB-BE01-D72EF2B06B0F}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdWinApp", "ThirdWinApp\ThirdWinApp.csproj", "{B89643D6-FF87-45D9-ACFD-7B6B796B0883}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourthFormApp", "FourthFormApp\FourthFormApp.csproj", "{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotoGen", "TotoGen\TotoGen.csproj", "{05276651-5F22-4D05-A6FC-204A19EC55FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65FC8288-4DBA-4CF6-97D0-9AE81501BAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05276651-5F22-4D05-A6FC-204A19EC55FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05276651-5F22-4D05-A6FC-204A19EC55FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05276651-5F22-4D05-A6FC-204A19EC55FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05276651-5F22-4D05-A6FC-204A19EC55FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D31F0854-1609-4911-BBCA-A7F38350F47C}
 	EndGlobalSection
 EndGlobal
