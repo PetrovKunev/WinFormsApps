@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Generator10/Generator10.csproj" />
+  <Project Path="ToDoList/ToDoList.csproj" />
+</Solution>
