@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Generator10/Generator10.csproj" />
+  <Project Path="MiniNotepad/MiniNotepad.csproj" Id="6dff22cf-e869-45bb-8c48-8c80cc600127" />
   <Project Path="ToDoList/ToDoList.csproj" />
 </Solution>
