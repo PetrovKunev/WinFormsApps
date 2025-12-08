@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Avg_St/Avg_St.csproj" Id="af7998a8-c449-4057-82ae-6cda37b90d4d" />
+  <Project Path="BGPasswordValidator/BGPasswordValidator.csproj" Id="068ddca4-15f5-4e5d-9048-130ecdc48c2b" />
   <Project Path="Generator10/Generator10.csproj" />
   <Project Path="MiniNotepad/MiniNotepad.csproj" Id="6dff22cf-e869-45bb-8c48-8c80cc600127" />
   <Project Path="ToDoList/ToDoList.csproj" />
